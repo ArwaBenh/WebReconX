@@ -25,7 +25,7 @@ else:
     domain=url[7:]
 print(pyfiglet.figlet_format("WebReconX",justify="center"))
 
-response=requests.get(f'https://api.whois.vu/?q={domain}')
+response=requests.get(f'https://api.whois.vu/?q={domain}',timeout=5)
 info=requests.get(url)
 
 if response.status_code==200:
@@ -71,3 +71,4 @@ else:
     print("❌ ERROR: Failed to fetch WHOIS data")
 
 print("\n[italic cyan][!] This tool is a work in progress. More features coming soon![/]")
+
