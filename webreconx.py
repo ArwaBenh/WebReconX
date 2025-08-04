@@ -64,7 +64,7 @@ if response.status_code==200:
         
         with open(file_name,"w",encoding="utf-8") as f:
                f.write(save_data)
-        print(f"\n[bold green]Data saved at Desktop[/](FileName:{file_name})")
+        print(f"\n[bold green]Data saved [/](FileName:{file_name})")
     else:
         print("\n[bold red]Data not saved ❌")
 
@@ -73,6 +73,7 @@ else:
     print("❌ ERROR: Failed to fetch WHOIS data")
 
 print("\n[italic cyan][!] This tool is a work in progress. More features coming soon![/]")
+
 
 
 
