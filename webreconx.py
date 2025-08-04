@@ -4,7 +4,6 @@ import pyfiglet
 import argparse
 import datetime
 import socket
-import os
 
 def safe_datetime(ts):
     if ts:
@@ -59,8 +58,7 @@ if response.status_code==200:
     while rep not in ["Y","N"]:
         rep = input("Please enter Y or N:").strip()
     if rep=="Y":
-        home_dir = os.path.expanduser("~")
-        file_name = os.path.join(home_dir, "data-saved(WebReconX).txt")
+        file_name="data-saved(WebReconX).txt"
         
         with open(file_name,"w",encoding="utf-8") as f:
                f.write(save_data)
@@ -73,6 +71,7 @@ else:
     print("❌ ERROR: Failed to fetch WHOIS data")
 
 print("\n[italic cyan][!] This tool is a work in progress. More features coming soon![/]")
+
 
 
 
