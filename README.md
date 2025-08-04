@@ -1,4 +1,4 @@
-![Screenshot](screenshot.png)
+![Screenshot](screenshots.png)
 
 ## WebReconX
 
