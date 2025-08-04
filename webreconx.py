@@ -59,8 +59,9 @@ if response.status_code==200:
     while rep not in ["Y","N"]:
         rep = input("Please enter Y or N:").strip()
     if rep=="Y":
-        desktop=os.path.join(os.path.expanduser("~"), "Desktop")
-        file_name=os.path.join(desktop, "data-saved(WebReconX).txt")
+        desktop = os.path.join(os.path.expanduser("~"), "Desktop")
+        file_name = os.path.join(desktop, "data-saved(WebReconX).txt")
+        os.makedirs(desktop, exist_ok=True) 
         
         with open(file_name,"w",encoding="utf-8") as f:
                f.write(save_data)
@@ -73,5 +74,6 @@ else:
     print("❌ ERROR: Failed to fetch WHOIS data")
 
 print("\n[italic cyan][!] This tool is a work in progress. More features coming soon![/]")
+
 
 
