@@ -43,14 +43,6 @@ Replace https://example.com with the website you want to scan.
 * `rich`
 * `pyfiglet`
 
-Install dependencies with:
-
-```bash
-pip install requests rich pyfiglet
-```
-
----
-
 ## License
 
 This project uses only public APIs and gathers public information legally. Please use responsibly.
