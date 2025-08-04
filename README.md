@@ -19,7 +19,7 @@
 
 1. Clone the repository:
 <pre>
-git clone https://github.com/yourusername/WebReconX.git
+git clone https://github.com/ArwaBenh/WebReconX.git
 </pre>
 2.  Navigate to the project folder:
 <pre>
