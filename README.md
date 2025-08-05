@@ -57,7 +57,7 @@ If enabled, results will be saved to: data-saved(WebReconX).txt
 This tool is intended for educational and authorized security research purposes only.
 It collects only publicly accessible data (like robots.txt, security.txt, headers, etc.).
 
-Don't use it on websites you don't own or don't have explicit permission to scan
+<p>Don't use it on websites you don't own or don't have explicit permission to scan</p>
 ---
 ## 📄 License
 
