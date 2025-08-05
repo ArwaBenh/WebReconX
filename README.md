@@ -1,10 +1,18 @@
-## WebReconX
-
-Welcome to WebReconX, a website info scanner tool.
+<h1 align="center">🔍 WebReconX</h1>
 <p align="center">
-  <img src="GIF.gif" alt="Demo" loop>
+  <i>Website Information Scanner — Built with Python</i>
 </p>
-Scan domains, check WHOIS info, retrieve robots.txt, sitemap.xml, and more!
+
+<p align="center">
+  <img src="demo.gif" alt="WebReconX Demo" width="80%">
+</p>
+
+---
+
+## 🚀 What is WebReconX?
+
+**WebReconX** is a terminal-based Python tool to scan websites and gather useful public information like WHOIS, IP address, `robots.txt`, `sitemap.xml`, and more — presented in a clean and colorful output using `rich` and `pyfiglet`.
+
 
 ---
 
@@ -51,6 +59,7 @@ Replace https://example.com with the website you want to scan.
 ## 📂 Output
 
 <p>If enabled, results will be saved to: data-saved(WebReconX).txt</p>
+
 ---
 ## ⚠️ Legal Disclaimer
 
