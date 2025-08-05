@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="demo.gif" alt="WebReconX Demo" width="80%">
+  <img src="GIF.gif" alt="WebReconX Demo" width="80%">
 </p>
 
 ---
