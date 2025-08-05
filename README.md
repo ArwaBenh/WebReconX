@@ -6,16 +6,19 @@
 
 ---
 
-## Features
+## 🚀 Features
 
-* Fetches WHOIS domain info (registrar, creation, expiration dates)
-* Resolves domain IP address
-* Shows important HTTP response headers
-* Saves report to a text file if requested
-* Pretty terminal output using `rich` and ASCII banner with `pyfiglet`
+- ✅ Fetches domain WHOIS info (registrar, created/updated/expires)
+- 🌍 Resolves IP address from domain
+- 📄 Shows key HTTP headers
+- 🗺️ Reads sitemap.xml (if exists)
+- 🤖 Parses robots.txt
+- 👨‍💻 Displays humans.txt, ads.txt, and security.txt
+- 💾 Saves a full report to a `.txt` file
+- 🎨 Beautiful terminal output using `rich` and `pyfiglet`
 
 ---
-## Installation & Usage
+## 🛠 Installation & Usage
 
 1. Clone the repository:
 <pre>
@@ -36,14 +39,25 @@ python webreconx.py --url https://example.com
 Replace https://example.com with the website you want to scan.
 
 ---
-## Requirements
+## ✅ Requirements
 
 * Python 3.7+
 * `requests`
 * `rich`
 * `pyfiglet`
+---
+## 📂 Output
 
-## License
+If enabled, results will be saved to: data-saved(WebReconX).txt
+---
+## ⚠️ Legal Disclaimer
+
+This tool is intended for educational and authorized security research purposes only.
+It collects only publicly accessible data (like robots.txt, security.txt, headers, etc.).
+
+Don't use it on websites you don't own or don't have explicit permission to scan
+---
+## 📄 License
 
 This project uses only public APIs and gathers public information legally. Please use responsibly.
 
