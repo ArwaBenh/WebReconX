@@ -1,9 +1,9 @@
 ## WebReconX
 
 Welcome to WebReconX, a website info scanner tool.
-
-![Demo of WebReconX](GIF.gif)
-
+<p align="center">
+  <img src="demo.gif" alt="Demo" loop>
+</p>
 Scan domains, check WHOIS info, retrieve robots.txt, sitemap.xml, and more!
 
 ---
