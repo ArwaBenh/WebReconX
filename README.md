@@ -1,4 +1,4 @@
-![Demo](gif.gif)
+![Demo](GIF.gif)
 
 ## WebReconX
 
