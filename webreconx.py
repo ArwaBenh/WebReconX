@@ -22,9 +22,9 @@ while url.find("http://www.")==-1 and url.find("https://www.")==-1:
     print("[red]Invalid URL. Try again (e.g., https://www.example.com)")
     url=input("")
 if url.find('s'):
-    domain=url[8:]
+    domain=url[12:]
 else:
-    domain=url[7:]
+    domain=url[11:]
 
 print(pyfiglet.figlet_format("WebReconX",justify="center"))
 
