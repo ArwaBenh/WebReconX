@@ -50,7 +50,7 @@ Replace https://example.com with the website you want to scan.
 ---
 ## 📂 Output
 
-If enabled, results will be saved to: data-saved(WebReconX).txt
+<p>If enabled, results will be saved to: data-saved(WebReconX).txt</p>
 ---
 ## ⚠️ Legal Disclaimer
 
@@ -58,6 +58,7 @@ This tool is intended for educational and authorized security research purposes 
 It collects only publicly accessible data (like robots.txt, security.txt, headers, etc.).
 
 <p>Don't use it on websites you don't own or don't have explicit permission to scan</p>
+
 ---
 ## 📄 License
 
