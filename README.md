@@ -1,8 +1,10 @@
-![Demo](GIF.gif)
-
 ## WebReconX
 
-**WebReconX** is a simple, legal, and shareable command-line Python tool for scanning website information including WHOIS data, IP address, HTTP headers, and more.
+Welcome to WebReconX, a website info scanner tool.
+
+![Demo of WebReconX](GIF.gif)
+
+Scan domains, check WHOIS info, retrieve robots.txt, sitemap.xml, and more!
 
 ---
 
